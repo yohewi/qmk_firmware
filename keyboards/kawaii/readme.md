@@ -1,6 +1,6 @@
 # kawaii
 
-![kawaii](imgur.com image replace me!)
+![kawaii]
 
 *A short description of the keyboard/project*
 
