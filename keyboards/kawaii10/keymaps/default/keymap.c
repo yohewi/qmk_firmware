@@ -24,23 +24,17 @@ enum layer_names {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* Base */
-/*    [_DEFAULT] = LAYOUT(
-      KC_7,    KC_8,    KC_9,    KC_DOT, DF(_2),  \
-      KC_4,    KC_5,    KC_6,    KC_PAST,   KC_B,   \
-      KC_1,    KC_2,    KC_3,    KC_MINS,   _______,  \
-      KC_DOT,  KC_0,    KC_PEQL, KC_PPLS,   _______ ), */
     [_DEFAULT] = LAYOUT(
-      KC_P, LCTL(KC_Z), LCTL(KC_Y), _______, DF(_DEFAULT), \
-      KC_E,    _______, RESET,    _______, _______, \
-      KC_G,    LCTL(KC_LBRC), LSFT(KC_SPC), LCTL(KC_MINS), _______, \
-      KC_LALT,  LCTL(KC_RBRC), LCTL(KC_SPC), LCTL(KC_PPLS), _______  )
-/*
+      KC_7,    KC_8,    KC_9,    KC_BSPC,   _______, \
+      KC_4,    KC_5,    KC_6,    KC_PAST,   _______, \
+      KC_1,    KC_2,    KC_3,    KC_MINS,   _______, \
+      KC_DOT,  KC_0,    KC_PEQL, KC_PPLS,   _______ ),
+
     [2] = LAYOUT(
-      KC_P, LCTL(KC_Z), LCTL(KC_Y), _______, DF(_DEFAULT), \
-      KC_E,    _______, RESET,    _______, _______, \
-      KC_G,    LCTL(KC_LBRC), LSFT(KC_SPC), LCTL(KC_MINS), _______, \
-      KC_LALT,  LCTL(KC_RBRC), LCTL(KC_SPC), LCTL(KC_PPLS), _______  )
- */
+      _______, _______, _______,  _______,  _______, \
+      _______, _______, _______,  _______,  _______, \
+      _______, _______, _______,  _______,  _______, \
+      _______, _______, _______,  _______,  _______ ),
 };
 
 
