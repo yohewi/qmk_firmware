@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       KC_7,    KC_8,    KC_9,    KC_BSPC,   _______, \
       KC_4,    KC_5,    KC_6,    KC_PAST,   _______, \
       KC_1,    KC_2,    KC_3,    KC_MINS,   _______, \
-      KC_DOT,  KC_0,    KC_PEQL, KC_PPLS,   _______ ),
+      KC_DOT,  KC_0,    KC_ENT,  KC_PPLS,   _______ ),
 
     [2] = LAYOUT(
       _______, _______, _______,  _______,  _______, \
@@ -36,7 +36,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       _______, _______, _______,  _______,  _______, \
       _______, _______, _______,  _______,  _______ ),
 };
-
 
 bool encoder_update_user(uint8_t index, bool clockwise) {
     if (index == 0) { /* First encoder */
